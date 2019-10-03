@@ -23,17 +23,18 @@ Or he photoshops it?
 Most information about who is asserting what so that we can find where the
 fraud happened?  Who might be responsible?
 
-* Home owner "Wendall"
+* Home owner "Wendall" (excluded from below scenario for simplicity)
 * Loan processor "Pete"
+* Bank
 
 
 Pete is issued a credential that he is qualified to inspect the home.
-
 When Pete inspects the home, he uses his credential to issue a claim.
-
 
 What credentials do they need to perform the role?
 What is the chain of events?
+
+Desired Outcome: there is a chain of verifiable credentials
 
 ## Verifiable Credentials issues to humans / real-world entities
 
@@ -47,10 +48,9 @@ Possible option: Bank provides Pete a digital camera >
 
 ## Transactions
 
-2. Pete takes photo and generates a report
-   1. Pete creates a report (which is a verifiable credential)
+2. Pete takes photo and generates a report. (This report is a verifiable credential.)
    * issuer: Pete
-   * subject: <house or photo (could be two subjects)>
+   * subject: The house or the photo (could be two subjects)
    * holder: Pete's Photography Co. (could be Pete)
    * claim: 
 
@@ -66,4 +66,3 @@ to ensure that it was created by the entity that was authorized by the bank.
 
 
 
-Outcome: there is a chain of verifiable credentials
